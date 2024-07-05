@@ -16,3 +16,6 @@ Displays a menu with options to login, register a new user, or exit the program.
 Based on user input (1, 2, or 3), calls the corresponding function (login(), register(), or exit).
 Usage:
 Run the program and choose whether to login with existing credentials (1), register a new user (2), or exit (3).
+Notes:
+This is a very basic example. In a real-world application, you would want to handle passwords securely (e.g., hashing passwords), implement error handling and input validation, and possibly use a database instead of a dictionary for user storage.
+Error handling for incorrect inputs or unexpected behavior should be added to enhance robustness.
