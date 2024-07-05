@@ -1,0 +1,18 @@
+Explanation:
+user_database: This dictionary stores username-password pairs. Initially, it contains some predefined entries (user1, user2, user3).
+
+login() function:
+
+Prompts the user to enter a username and password.
+Checks if the entered username exists in user_database and if the password matches the stored password.
+Prints "Login successful!" if credentials are correct, otherwise prints "Login failed."
+register() function:
+
+Prompts the user to enter a new username and checks if it already exists in user_database.
+If the username doesn't exist, prompts for a password, adds the new username-password pair to user_database, and prints "Registration successful!"
+Main program loop:
+
+Displays a menu with options to login, register a new user, or exit the program.
+Based on user input (1, 2, or 3), calls the corresponding function (login(), register(), or exit).
+Usage:
+Run the program and choose whether to login with existing credentials (1), register a new user (2), or exit (3).
