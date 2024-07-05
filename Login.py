@@ -10,7 +10,7 @@ def login():
 
     # Check if username exists and passwords match
     if username in user_database and user_database[username] == password:
-        print("Login successful!")
+        print("Login successful")
     else:
         print("Login failed. Please check your username and password.")
 
